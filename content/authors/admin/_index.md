@@ -2,19 +2,16 @@
 # Display name
 title: Gustavo Morales Espinoza
 
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
-
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Gustavo Lino
+last_name: Morales Espinoza
 
 # Pronouns (optional)
 pronouns: she/her
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ⚡️🧠
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,21 +20,26 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: PhD. Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: USP
+    url: https://www5.usp.br
+  - name: RCGI - Power Systems Innovation Hub - InnovaPower
+    url: https://sites.usp.br/rcgi/br/programas-e-projetos-2/nucleo-de-inovacao-em-sistemas-de-energia-innovapower
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'gumoresp@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  - icon: at-symbol
+    url: 'gustavo.morales-espinoza@usp.br'
+    label: E-mail Me
+#  - icon: brands/x
+#   url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
     url: https://www.instagram.com/
   - icon: brands/github
