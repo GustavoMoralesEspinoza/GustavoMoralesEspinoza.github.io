@@ -170,14 +170,14 @@ languages:
 
 My work bridges **distribution network engineering** and **intelligent optimization systems**, with a strong emphasis on improving **power quality** and **reliability** in smart grids. I specialize in:
 
-**Distribution Network Analysis & Planning**  
-Integration of microgrids, DERs (PV, WG, BESS), and demand forecasting into modern distribution planning frameworks, with a focus on hosting capacity evaluation.
+- **Distribution Network Analysis & Planning**  
+  Integration of microgrids, DERs (PV, WG, BESS), and demand forecasting into modern distribution planning frameworks, with a focus on hosting capacity evaluation.
 
-**Evolutionary Computation & Optimization**  
-Application of Evolutionary Algorithms, Metaheuristics and Swarm Intelligence for solving large-scale planning problems and Engineering Optimization
+- **Evolutionary Computation & Optimization**  
+  Application of Evolutionary Algorithms, Metaheuristics and Swarm Intelligence for solving large-scale planning problems and Engineering Optimization
 
-**Smart Grids & Reliability Indices**  
-Improving Reliability indices and other quality indicators through advanced simulation, stochastic Monte Carlo modeling, and multi-objective optimization strategies.
+- **Smart Grids & Reliability Indices**  
+  Improving Reliability indices and other quality indicators through advanced simulation, stochastic Monte Carlo modeling, and multi-objective optimization strategies.
 
 I am currently pursuing my **PhD in Electrical Engineering at [USP](https://www5.usp.br)**, where I am also a member of the [RCGI – InnovaPower Hub](https://sites.usp.br/rcgi/br/programas-e-projetos-2/nucleo-de-inovacao-em-sistemas-de-energia-innovapower), the Center for Studies in Regulation and Power Quality (**ENERQ**), and the **GEPEA** – Power and Energy Group.  My doctoral research covers **distribution network planning, smart grids, microgrids, evolutionary computation, and artificial intelligence**, addressing the technical and operational challenges of future energy systems under high penetration of distributed resources.
 
