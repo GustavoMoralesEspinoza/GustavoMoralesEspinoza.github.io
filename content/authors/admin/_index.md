@@ -6,9 +6,6 @@ title: Gustavo Morales Espinoza
 first_name: Gustavo Lino
 last_name: Morales Espinoza
 
-# Pronouns (optional)
-pronouns: he/him
-
 # Status emoji
 status:
   icon: ⚡️
@@ -24,7 +21,9 @@ role: PhD Student · Power Systems & AI
 
 # Organizations/Affiliations to display in Biography block
 organizations:
-  - name: Universidade de São Paulo (USP)
+  - name: University of São Paulo (USP)
+    url: https://www5.usp.br
+  - name: São Paulo State University (USP)
     url: https://www5.usp.br
   - name: RCGI – Power Systems Innovation Hub (InnovaPower)
     url: https://sites.usp.br/rcgi/br/programas-e-projetos-2/nucleo-de-inovacao-em-sistemas-de-energia-innovapower
@@ -48,10 +47,10 @@ profiles:
 
 interests:
   - Distribution Networks & Smart Grids
-  - Hosting Capacity (PV/BESS)
-  - Evolutionary Optimization (GA, PSO, NSGA-II)
-  - AI for Power Systems
-  - Reliability & Power Quality (VTCDs, SAIDI/SAIFI)
+  - Optimization Techniques Applied to Power Distribution Networks
+  - Evolutionary computing
+  - Artificial Intelligence for Power Systems
+  - Reliability & Power Quality
 
 education:
   - area: PhD in Electrical Engineering (Power Systems & AI)
@@ -59,14 +58,14 @@ education:
     date_start: 2024-08-01
     date_end: ''
     summary: |
-      Research on distribution planning, hosting capacity with PV/BESS, stochastic modeling and evolutionary/metaheuristic optimization.
+      Research on distribution planning, hosting capacity, smart grids, stochastic modeling and evolutionary/metaheuristic optimization.
   - area: MSc in Electrical Engineering (Automation & Control)
     institution: Universidade Estadual Paulista (UNESP)
     date_start: 2022-06-01
     date_end: 2024-05-31
     summary: |
-      Focus on optimization and smart grids; Monte Carlo simulations coupled to evolutionary strategies for planning studies.
-  - area: BSc in Mechanical Engineering (Top 20%)
+      Focus on optimization and Smart grids; Industry 4.0 Consumers; Monte Carlo simulations coupled to evolutionary strategies for planning studies.
+  - area: BSc in Mechanical Engineering (Top 10%)
     institution: Universidad Nacional de San Agustín (UNSA)
     date_start: 2015-03-01
     date_end: 2019-12-31
@@ -76,30 +75,30 @@ education:
 work:
   - position: Researcher – Innova Power Solutions (RCGI)
     company_name: Research Centre for Greenhouse Gas Innovation (RCGI/USP)
-    company_url: ''
-    company_logo: ''
+    company_url: https://sites.usp.br/rcgi/br/programas-e-projetos-2/nucleo-de-inovacao-em-sistemas-de-energia-innovapower
+    company_logo: RCGI
     date_start: 2024-08-01
     date_end: ''
     summary: |2-
-      Development of stochastic and evolutionary methodologies to assess and optimize hosting capacity in distribution networks with high PV/BESS penetration; Monte Carlo simulations integrated with GA/PSO/NSGA-II.
-  - position: Teaching Intern – Electrical Engineering (Controle e Automação)
-    company_name: UNESP – Câmpus Sorocaba (PAADES)
-    company_url: ''
-    company_logo: ''
-    date_start: 2022-07-01
-    date_end: 2022-10-31
-    summary: |
-      Support in undergraduate teaching activities and lab sessions in control/automation topics.
+      Development of stochastic and evolutionary methodologies to assess and optimize hosting capacity in distribution networks with high DER penetration; Monte Carlo simulations integrated with evolutionary computation.
+#  - position: Teaching Intern – Electrical Engineering (Controle e Automação)
+#    company_name: UNESP – Câmpus Sorocaba (PAADES)
+#    company_url: ''
+#    company_logo: ''
+#    date_start: 2022-07-01
+#    date_end: 2022-10-31
+#    summary: |
+#      Support in undergraduate teaching activities and lab sessions in control/automation topics.
   - position: Engineering Intern – Mechanical/Structural Design
-    company_name: PRODISE S.R.L Ingeniería y Servicios
-    company_url: ''
+    company_name: PRODISE S.R.L Engineering & Services
+    company_url: PRODISE
     company_logo: ''
     date_start: 2022-01-01
-    date_end: 2022-07-31
+    date_end: 2022-08-31
     summary: |
       BIM modeling of steel structures, structural calculation reports, 3D post-scan processing, and project documentation.
 
-# Skills (progress bars are optional; keep a few, bien enfocados)
+# Skills
 skills:
   - name: Technical Skills
     items:
@@ -111,31 +110,35 @@ skills:
         description: ''
         percent: 90
         icon: bolt
-      - name: Evolutionary Optimization (GA/PSO/NSGA-II)
+      - name: Evolutionary Optimization 
         description: ''
         percent: 85
         icon: beaker
-      - name: MATLAB
-        description: ''
-        percent: 70
-        icon: cpu-chip
       - name: Power Flow & Distribution Planning
         description: ''
         percent: 85
         icon: squares-2x2
+      - name: Data Science
+        description: ''
+        percent: 100
+        icon: char-bar
+      - name: SQL
+        description: ''
+        percent: 40
+        icon: circle-stack
 
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Running & HIIT
-        description: ''
-        percent: 70
-        icon: heart
-      - name: Photography
-        description: ''
-        percent: 60
-        icon: camera
+#  - name: Hobbies
+#    color: '#eeac02'
+#    color_border: '#f0bf23'
+#    items:
+#      - name: Running & HIIT
+#        description: ''
+#        percent: 70
+#        icon: heart
+#      - name: Photography
+#        description: ''
+#        percent: 60
+#        icon: camera
 
 languages:
   - name: Spanish
@@ -145,31 +148,38 @@ languages:
   - name: English
     percent: 80
 
-# Highlights / Certifications / Events (breve y relevante)
-awards:
-  - title: Presenter – ICREPQ’24 (Renewable Energies & Power Quality)
-    date: '2024-03-01'
-    awarder: ICREPQ
-    icon: academic-cap
-    summary: |
-      Presented work on distribution planning and optimization under high PV penetration.
-  - title: XXV Congresso Brasileiro de Automática (CBA 2024)
-    date: '2024-10-01'
-    awarder: SBA
-    icon: academic-cap
-    summary: |
-      Research on power systems and optimization algorithms applied to distribution networks.
-  - title: PV System Design (PVSyst)
-    date: '2020-10-01'
-    awarder: Course/Workshop
-    icon: sun
-    summary: |
-      Design of grid-tied and off-grid PV systems.
+#awards:
+#  - title: Presenter – ICREPQ’24 (Renewable Energies & Power Quality)
+#    date: '2024-03-01'
+#    awarder: ICREPQ
+#    icon: academic-cap
+#    summary: |
+#      Presented research on distribution planning and optimization under high PV penetration.
+#  - title: XXV Congresso Brasileiro de Automática (CBA 2024)
+#    date: '2024-10-01'
+#    awarder: SBA
+#    icon: academic-cap
+#    summary: |
+#      Research on optimization algorithms for distribution networks with DER integration.
 
 ---
 
 ## About Me
 
-Sou pesquisador de doutorado na USP focado em **planejamento de redes de distribuição**, **Hosting Capacity com PV/BESS** e **otimização evolutiva** (AG, PSO, NSGA-II) acoplada a simulações de **Monte Carlo**. Tenho formação em Engenharia Mecânica (UNSA) e Mestrado em Engenharia Elétrica (UNESP). Gosto de integrar **IA e heurísticas** a ferramentas como **OpenDSS** para resolver problemas complexos de qualidade e confiabilidade de energia.
+## About Me
 
-I’m a PhD researcher at USP working on **distribution network planning**, **PV/BESS hosting capacity**, and **evolutionary optimization** integrated with **Monte Carlo** analysis. I combine AI/metaheuristics with **OpenDSS** and Python to deliver robust planning and operation insights for smart grids.
+My work bridges **distribution network engineering** and **intelligent optimization systems**, with a strong emphasis on improving **power quality** and **reliability** in smart grids. I specialize in:
+
+**Distribution Network Analysis & Planning**  
+Integration of microgrids, DERs (PV, WG, BESS), and demand forecasting into modern distribution planning frameworks, with a focus on hosting capacity evaluation.
+
+**Evolutionary Computation & Optimization**  
+Application of Evolutionary Algorithms, Metaheuristics and Swarm Intelligence for solving large-scale planning problems and Engineering Optimization
+
+**Smart Grids & Reliability Indices**  
+Improving Reliability indices and other quality indicators through advanced simulation, stochastic Monte Carlo modeling, and multi-objective optimization strategies.
+
+I am currently pursuing my **PhD in Electrical Engineering at [USP](https://www5.usp.br)**, where I am also a member of the [RCGI – InnovaPower Hub](https://sites.usp.br/rcgi/br/programas-e-projetos-2/nucleo-de-inovacao-em-sistemas-de-energia-innovapower), the Center for Studies in Regulation and Power Quality (**ENERQ**), and the **GEPEA** – Power and Energy Group.  My doctoral research covers **distribution network planning, smart grids, microgrids, evolutionary computation, and artificial intelligence**, addressing the technical and operational challenges of future energy systems under high penetration of distributed resources.
+
+Previously, during my MSc at [UNESP](https://www2.unesp.br/portal#!/), I studied distribution planning for **Industry 4.0 consumers** using evolutionary algorithms. I hold a BSc in Mechanical Engineering from [UNSA](https://www.unsa.edu.pe/), where I specialized in **structural design and applied engineering**, building a multidisciplinary foundation that now supports my work in energy systems.
+
