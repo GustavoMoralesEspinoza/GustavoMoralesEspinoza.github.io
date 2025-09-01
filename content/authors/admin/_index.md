@@ -3,7 +3,7 @@
 title: Gustavo Morales Espinoza
 
 # Full name (for SEO)
-first_name: Gustavo Lino
+first_name: Gustavo
 last_name: Morales Espinoza
 
 # Status emoji
@@ -73,6 +73,14 @@ education:
       Honors graduate; foundations in industrial/mechanical design and structural analysis.
 
 work:
+  - position: Doctoral Fellow
+    company_name: University of Sao Paulo
+    company_url: https://www5.usp.br
+    company_logo: USP
+    date_start: 2024-08-01
+    date_end: ''
+    summary: |
+      Distribution network planning with smart grids under the supervision of [Prof. Juan Cebrian](http://lattes.cnpq.br/8014002666080425)
   - position: Researcher – Innova Power Solutions (RCGI)
     company_name: Research Centre for Greenhouse Gas Innovation (RCGI/USP)
     company_url: https://sites.usp.br/rcgi/br/programas-e-projetos-2/nucleo-de-inovacao-em-sistemas-de-energia-innovapower
@@ -81,14 +89,14 @@ work:
     date_end: ''
     summary: |2-
       Development of stochastic and evolutionary methodologies to assess and optimize hosting capacity in distribution networks with high DER penetration; Monte Carlo simulations integrated with evolutionary computation.
-#  - position: Teaching Intern – Electrical Engineering (Controle e Automação)
-#    company_name: UNESP – Câmpus Sorocaba (PAADES)
-#    company_url: ''
-#    company_logo: ''
-#    date_start: 2022-07-01
-#    date_end: 2022-10-31
-#    summary: |
-#      Support in undergraduate teaching activities and lab sessions in control/automation topics.
+  - position: Teaching Intern – Electrical Engineering (Controle e Automação)
+    company_name: UNESP – Câmpus Sorocaba (PAADES)
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-07-01
+    date_end: 2022-10-31
+    summary: |
+      Support in undergraduate teaching activities and lab sessions in control/automation topics.
   - position: Engineering Intern – Mechanical/Structural Design
     company_name: PRODISE S.R.L Engineering & Services
     company_url: PRODISE
@@ -163,8 +171,6 @@ languages:
 #      Research on optimization algorithms for distribution networks with DER integration.
 
 ---
-
-## About Me
 
 ## About Me
 

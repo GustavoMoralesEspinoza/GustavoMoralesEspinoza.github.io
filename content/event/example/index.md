@@ -1,73 +1,49 @@
 ---
-title: Example Talk
+title: 'Adaptive Genetic Algorithm for Distribution Expansion Planning Considering Sensitive Industrial Customers'
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: INDUSCON 2025 — 15th IEEE International Conference on Industry Applications
+event_url: https://induscon2025.com.br/
 
-location: Hugo Blox Builder HQ
+location: São Paulo, Brazil
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  city: São Paulo
+  region: SP
+  country: Brazil
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: Multi-stage adaptive GA framework for distribution expansion planning, incorporating reliability and power quality for sensitive industrial customers.
+abstract: >
+  This paper introduces a methodology for planning the expansion of distribution networks with an emphasis on reliability and service quality for sensitive industrial customers. 
+  The proposed approach applies an Adaptive Genetic Algorithm (AGA) with elitism, adaptive mutation, and dynamic recombination to balance investment cost, electrical losses, and financial penalties due to inadequate service continuity. 
+  Monte Carlo Simulation is integrated to evaluate stochastic disturbances, reliability indices (SAIDI, SAIFI, CCIFI, CCIDI), and economic losses from voltage sags and interruptions. 
+  Results on a modified 18-bus test system highlight that reliability-oriented planning improves individual reliability indices, reduces overall losses, and enhances system resilience under industrial demand growth.
 
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2025-12-07T09:00:00Z'
 all_day: false
-
-# Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2025-09-01T00:00:00Z'
 
 authors:
   - admin
 
-tags: []
+tags:
+  - Distribution Network Planning
+  - Adaptive Genetic Algorithm
+  - Reliability
+  - Industrial Customers
+  - Voltage Sags
 
-# Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+  caption: 'INDUSCON 2025 — São Paulo'
+  focal_point: Smart
 
-links:
-  - type: code
-    url: https://github.com
-  - type: slides
-    url: https://slideshare.net
-  - type: video
-    url: https://youtube.com
+# links:
+#   - icon: file
+#     icon_pack: fas
+#     name: Paper
+#     url: '/files/INDUSCON_AGA.pdf'
+# url_slides: ''
+# url_video: ''
 
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects:
-  - example
+projects: []
 ---
-
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using the `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to this page bundle and link it using `links: [{ type: slides, url: path/to/file } ]` in front matter
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
-
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
