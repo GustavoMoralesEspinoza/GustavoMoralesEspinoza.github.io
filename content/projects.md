@@ -3,7 +3,7 @@ title: 'Projects'
 date: 2024-05-19
 type: landing
 
-design:
+design:S
   # Section spacing
   spacing: '5rem'
 
