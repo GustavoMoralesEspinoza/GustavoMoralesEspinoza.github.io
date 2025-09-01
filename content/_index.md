@@ -9,6 +9,17 @@ design:
   spacing: "6rem"
 
 sections:
+  - block: hero
+    demo: false # Only display this section in the Hugo Blox Builder demo site
+    content:
+      title: <br/><br/>Embodied Intelligence and Robot Learning
+    design:
+      background:
+        image:
+          filename: stacked-peaks.svg
+          filters:
+            brightness: 0.5
+        text_color_light: true
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
@@ -71,12 +82,13 @@ sections:
     id: talks
     content:
       title: Recent & Upcoming Talks
+      count: 0
       filters:
         folders:
           - event
     design:
       view: article-grid
-      columns: 1
+      columns: 2
   - block: collection
     id: news
     content:
